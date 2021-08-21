@@ -1,0 +1,86 @@
+body {
+    background-color: #006CA5;
+    font-family: cursive;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pizza {
+    border: 1px solid #FFBD00;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.small_pizza {
+    background-color: #FDF0D5;
+    flex: 0.5em
+}
+
+
+.medium_pizza {
+    background-color: #FCBF49;
+    flex: 0.5em
+}
+
+.large_pizza {
+    background-color: #F77F00;
+    flex: 0.5em
+}
+
+.contact_us {
+    background-color: #D62828;
+    flex: 0.5em;
+}
+
+.shopping_cart {
+    background-color: #D62828;
+}
+
+.addButton {
+    background-color: yellowgreen;
+}
+
+.minusButton {
+    background-color:olive;
+}
+
+.removeButton {
+    background: red;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:760px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media (min-width:960px) {
+   body {
+        background-color: blueviolet;
+    }
+    .pizzas {
+        display: flex;
+    }
+
+    .title {
+        font-size: 1em;
+    font-family: cursive;
+        }
+    }
