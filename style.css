@@ -60,6 +60,9 @@ th, td {
     text-align: left;
 }
 
+.btn {
+   width: 120%; 
+}
 .buttons{
     display: flex;
     justify-content: center;
